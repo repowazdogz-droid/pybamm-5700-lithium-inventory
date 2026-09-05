@@ -1,0 +1,98 @@
+[
+  {
+    "job": "pr_dfn_control_x80_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x80_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x80_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x20_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x20_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x20_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x80_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x80_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x80_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x20_r20_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x20_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x20_r80_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x20_r20_t1e-06",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x40_r40_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_constant_x20_r20_t1e-08",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x20_r20_t1e-06",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_half_x20_r20_t1e-08",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x40_r40_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_half_x40_r40_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_half_x20_r20_t1e-06",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_dfn_control_x20_r20_t1e-08",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x40_r40_t1e-10",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x20_r20_t1e-06",
+    "series_byte_identical": true
+  },
+  {
+    "job": "pr_basic_variable_x20_r20_t1e-08",
+    "series_byte_identical": true
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "basic_variable": {
+    "Neumann": 11,
+    "Dirichlet": 1
+  },
+  "half": {
+    "Neumann": 9,
+    "Dirichlet": 1
+  },
+  "basic_constant": {
+    "Neumann": 11,
+    "Dirichlet": 1
+  },
+  "dfn_control": {
+    "Neumann": 13,
+    "Dirichlet": 1
+  }
+}

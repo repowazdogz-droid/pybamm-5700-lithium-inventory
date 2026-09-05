@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "max_residual_mol": {
+    "closed_transfer": 1.7763568394002505e-15,
+    "boundary_and_source_conserving": 3.3306690738754696e-15,
+    "altered_inventory": 0.019999999999999574,
+    "wrong_boundary_sign": 0.6000000000000001,
+    "omitted_source": 0.2,
+    "wrong_volume_factor": 0.004999999999999005,
+    "synthetic_imbalance": 0.010000000000000855
+  },
+  "loop_disagreement": 3.552713678800501e-15,
+  "units_and_product_rule": "passed"
+}

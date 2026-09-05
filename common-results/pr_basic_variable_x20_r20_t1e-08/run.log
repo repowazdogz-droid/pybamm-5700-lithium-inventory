@@ -1,0 +1,1 @@
+{"revision": "pr", "case": "basic_variable", "nx": 20, "nr": 20, "tol": 1e-08, "status": "completed", "error": null, "max_abs_residual_mol": 0.006518391161787707, "relative_max": 0.024417420125985856, "final_residual_mol": 0.006518391161787707}

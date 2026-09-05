@@ -1,0 +1,1 @@
+{"revision": "baseline", "case": "half", "nx": 20, "nr": 20, "tol": 1e-08, "status": "completed", "error": null, "max_abs_residual_mol": 1.6377432691120275e-11, "relative_max": 1.67898187476812e-07, "final_residual_mol": -2.181280662008362e-12}

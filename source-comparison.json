@@ -1,0 +1,32 @@
+[
+  {
+    "file": "models/full_battery_models/lithium_ion/basic_dfn.py",
+    "baseline": "f96dd68b955955ed3526655b637a20450f3cccac46238e4d8d0464301bc84282",
+    "main": "8ae2fd2ae81490681443cc1047c265dcb98abf482c3066403d2dd4a4b48d0db4",
+    "pr": "8ae2fd2ae81490681443cc1047c265dcb98abf482c3066403d2dd4a4b48d0db4"
+  },
+  {
+    "file": "models/submodels/electrolyte_diffusion/full_diffusion.py",
+    "baseline": "9892f95fc0d6e55a23961f61eb60d37bc562b29f262f28f4106cfd44432f55c7",
+    "main": "9892f95fc0d6e55a23961f61eb60d37bc562b29f262f28f4106cfd44432f55c7",
+    "pr": "9892f95fc0d6e55a23961f61eb60d37bc562b29f262f28f4106cfd44432f55c7"
+  },
+  {
+    "file": "models/submodels/electrolyte_diffusion/base_electrolyte_diffusion.py",
+    "baseline": "87f6ec64eba6fb36f52e17413a22715223720bcffcc8aa0e6fd39429c775d287",
+    "main": "87f6ec64eba6fb36f52e17413a22715223720bcffcc8aa0e6fd39429c775d287",
+    "pr": "87f6ec64eba6fb36f52e17413a22715223720bcffcc8aa0e6fd39429c775d287"
+  },
+  {
+    "file": "models/submodels/particle/fickian_diffusion.py",
+    "baseline": "fadae0f840061a743e9e2bdfbbf895f5a0d14acceb6dad514b46c4412a658664",
+    "main": "fadae0f840061a743e9e2bdfbbf895f5a0d14acceb6dad514b46c4412a658664",
+    "pr": "fadae0f840061a743e9e2bdfbbf895f5a0d14acceb6dad514b46c4412a658664"
+  },
+  {
+    "file": "input/parameters/lithium_ion/Xu2019.py",
+    "baseline": "008fd85a8b5184504bb28bcdfedc0fbe734023abe5ee2c9e5f00d744177d0268",
+    "main": "008fd85a8b5184504bb28bcdfedc0fbe734023abe5ee2c9e5f00d744177d0268",
+    "pr": "008fd85a8b5184504bb28bcdfedc0fbe734023abe5ee2c9e5f00d744177d0268"
+  }
+]

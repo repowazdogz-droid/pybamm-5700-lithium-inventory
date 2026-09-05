@@ -1,0 +1,195 @@
+{
+  "revision": "pr",
+  "sha": "719763b6925dd7a9b2c69932df37ed4057799379",
+  "case": "basic_variable",
+  "nx": 20,
+  "nr": 20,
+  "tol": 1e-08,
+  "status": "completed",
+  "pybamm_file": "vendor/pr/pybamm/__init__.py",
+  "pybammsolvers": "0.9.0",
+  "python": "3.12.13 (main, May  8 2026, 18:24:29) [Clang 22.1.3 ]",
+  "required_variables": [
+    "Negative electrolyte concentration [mol.m-3]",
+    "Separator electrolyte concentration [mol.m-3]",
+    "Positive electrolyte concentration [mol.m-3]",
+    "Negative particle concentration [mol.m-3]",
+    "Positive particle concentration [mol.m-3]",
+    "Current [A]",
+    "Discharge capacity [A.h]"
+  ],
+  "solver_options": {
+    "print_stats": false,
+    "compile": false,
+    "jacobian": "sparse",
+    "preconditioner": "BBDP",
+    "precon_half_bandwidth": 5,
+    "precon_half_bandwidth_keep": 5,
+    "num_threads": 1,
+    "num_solvers": 1,
+    "linear_solver": "SUNLinSol_KLU",
+    "linsol_max_iterations": 5,
+    "epsilon_linear_tolerance": 0.05,
+    "increment_factor": 1.0,
+    "linear_solution_scaling": true,
+    "silence_sundials_errors": false,
+    "max_order_bdf": 5,
+    "max_num_steps": 100000,
+    "dt_init": 0.0,
+    "dt_min": 0.0,
+    "dt_max": 0.0,
+    "max_error_test_failures": 10,
+    "max_nonlinear_iterations": 40,
+    "max_convergence_failures": 100,
+    "nonlinear_convergence_coefficient": 0.33,
+    "suppress_algebraic_error": false,
+    "hermite_interpolation": true,
+    "hermite_reduction_factor": 1.0,
+    "nonlinear_convergence_coefficient_ic": 0.0033,
+    "max_num_steps_ic": 50,
+    "max_num_jacobians_ic": 40,
+    "max_num_iterations_ic": 100,
+    "max_linesearch_backtracks_ic": 5,
+    "linesearch_off_ic": false,
+    "init_all_y_ic": false,
+    "calc_ic": true,
+    "newton_step_tol": 0.0001,
+    "newton_mode": "auto",
+    "num_steps_no_progress": 0,
+    "t_no_progress": 0.0
+  },
+  "model_options": {
+    "calculate discharge energy": "false",
+    "calculate heat source for isothermal models": "false",
+    "cell geometry": "arbitrary",
+    "contact resistance": "false",
+    "convection": "none",
+    "current collector": "uniform",
+    "diffusivity": "single",
+    "dimensionality": 0,
+    "electrolyte conductivity": "default",
+    "exchange-current density": "single",
+    "heat of mixing": "false",
+    "hydrolysis": "false",
+    "intercalation kinetics": "symmetric Butler-Volmer",
+    "interface utilisation": "full",
+    "lithium plating": "none",
+    "lithium plating porosity change": "false",
+    "loss of active material": "none",
+    "number of MSMR reactions": "none",
+    "open-circuit potential": "single",
+    "operating mode": "current",
+    "particle": "Fickian diffusion",
+    "particle mechanics": "none",
+    "particle phases": "1",
+    "particle shape": "spherical",
+    "particle size": "single",
+    "SEI": "none",
+    "SEI film resistance": "none",
+    "SEI on cracks": "false",
+    "SEI porosity change": "false",
+    "stress-induced diffusion": "false",
+    "surface form": "false",
+    "surface temperature": "ambient",
+    "thermal": "isothermal",
+    "total interfacial current density as a state": "false",
+    "transport efficiency": "Bruggeman",
+    "voltage as a state": "false",
+    "working electrode": "both",
+    "x-average side reactions": "false",
+    "use lumped thermal capacity": "false"
+  },
+  "solve_seconds": 0.6597115419572219,
+  "termination": "final time",
+  "area_m2": 0.10270000000000001,
+  "F_C_mol": 96485.33212331001,
+  "field_names": {
+    "negative electrode": "Negative electrolyte concentration [mol.m-3]",
+    "separator": "Separator electrolyte concentration [mol.m-3]",
+    "positive electrode": "Positive electrolyte concentration [mol.m-3]"
+  },
+  "geometry_parameters": {
+    "negative electrode": [
+      "Negative electrode porosity",
+      "Negative electrode thickness [m]"
+    ],
+    "separator": [
+      "Separator porosity",
+      "Separator thickness [m]"
+    ],
+    "positive electrode": [
+      "Positive electrode porosity",
+      "Positive electrode thickness [m]"
+    ]
+  },
+  "step_count": 5,
+  "field_shapes": {
+    "Negative electrolyte concentration [mol.m-3]": [
+      20,
+      "time"
+    ],
+    "Separator electrolyte concentration [mol.m-3]": [
+      20,
+      "time"
+    ],
+    "Positive electrolyte concentration [mol.m-3]": [
+      20,
+      "time"
+    ],
+    "Negative particle concentration [mol.m-3]": [
+      20,
+      20,
+      "time"
+    ],
+    "Study rate Negative particle concentration [mol.m-3]": [
+      20,
+      20,
+      "time"
+    ],
+    "Positive particle concentration [mol.m-3]": [
+      20,
+      20,
+      "time"
+    ],
+    "Study rate Positive particle concentration [mol.m-3]": [
+      20,
+      20,
+      "time"
+    ],
+    "Current [A]": [
+      "time"
+    ],
+    "Discharge capacity [A.h]": [
+      "time"
+    ],
+    "Study electrolyte rate": [
+      60,
+      "time"
+    ],
+    "Study predictor negative": [
+      20,
+      "time"
+    ],
+    "Study predictor positive": [
+      20,
+      "time"
+    ],
+    "Study supplied inventory": [
+      "time"
+    ]
+  },
+  "initial_inventory_mol": 0.2669565878849998,
+  "final_time_s": 4800.0,
+  "max_abs_residual_mol": 0.006518391161787707,
+  "relative_max": 0.024417420125985856,
+  "final_residual_mol": 0.006518391161787707,
+  "max_loop_disagreement_mol": 6.661338147750939e-16,
+  "max_rate_mol_s": 4.516855984363986e-06,
+  "max_rate_prediction_error_mol_s": 2.8686517737242253e-18,
+  "final_prediction_mol": 0.006517220896991969,
+  "prediction_simpson_mol": 0.006518269214432626,
+  "quadrature_disagreement_mol": 1.048317440657115e-06,
+  "max_supplied_inventory_disagreement_mol": 0.27347214467836045,
+  "max_capacity_input_disagreement_mol": 0.0,
+  "runtime_seconds": 2.285821167053655
+}
